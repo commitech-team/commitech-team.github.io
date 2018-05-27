@@ -158,21 +158,21 @@
                                     <div class="row">
                                         <div class="col-md-12">
                                             <div class="md-form">
-                                                <input class="form-control validate" id="subject" type="text"
+                                                <input class="form-control" id="subject" type="text"
                                                        name="subject" required="required"/>
                                                 <label for="subject">Título</label>
                                             </div>
                                         </div>
                                         <div class="col-md-12">
                                             <div class="md-form">
-                                                <textarea class="md-textarea validate" id="message" name="message"
+                                                <textarea class="md-textarea" id="message" name="message"
                                                           required="required"></textarea>
                                                 <label for="message">Tu mensaje</label>
                                             </div>
                                         </div>
                                     </div>
                                     <div class="center-on-small-only mb-4">
-                                        <button class="btn btn-indigo ml-0" type="submit"><i
+                                        <button id="send" class="btn btn-indigo ml-0" type="submit"><i
                                                 class="fa fa-paper-plane-o mr-2"></i> Enviar
                                         </button>
                                     </div>
@@ -209,6 +209,9 @@
         var from = document.getElementById('from').value;
         var subject = document.getElementById('subject').value;
         var message = document.getElementById('message').value;
+
+        var sendButton = document.getElementById('send');
+        sendButton.setAttribute('disabled', 'disabled');
         $.ajax({
             contentType: 'application/json',
             data: JSON.stringify({'name': name, 'address': from, 'subject': subject, 'message': message}),
@@ -223,6 +226,7 @@
                 }, 3000);
             },
             error: function () {
+                sendButton.removeAttribute('disabled');
                 var x = document.getElementById('snackbar');
                 x.innerHTML = 'No se pudo enviar el mail. Por favor, Intenta más tarde';
                 x.className = 'show';
