@@ -1,87 +1,157 @@
 #intro {
-  background: url("../img/panorama-3094696_1920.jpg") no-repeat center center;
-  background-size: cover;
+    background-size: cover;
 }
 
 .top-nav-collapse {
-  background-color: #AACFED !important;
+    background-color: #AACFED !important;
 }
 
 .footer-commitech, .footer-copyright {
-  background-color: #AACFED !important;
+    background-color: #AACFED !important;
 }
 
 .rgba-black-strong {
-  background-color: rgba(0,0,0,.5)!important;
+    background-color: rgba(0, 0, 0, .5) !important;
 }
 
 .navbar:not(.top-nav-collapse) {
-  background: transparent !important;
+    background: transparent !important;
 }
 
 .navbar-dark .navbar-toggler-icon {
-  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0, 0, 0, 0.7)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E")!important;
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0, 0, 0, 0.7)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E") !important;
 }
 
 @media (max-width: 768px) {
-  .navbar-dark .navbar-toggler-icon {
-    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0, 0, 0, 0.7)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E")!important;
-  }
-  .navbar:not(.top-nav-collapse) {
-    background-color: #AACFED !important;
-  }
-  .top-nav-collapse {
-    background-color: #AACFED !important;
-  }
-  
-  .footer-commitech, .footer-copyright {
-    background-color: #AACFED !important;
-  }
-  
-  .rgba-black-strong {
-    background-color: rgba(0,0,0,.5)!important;
-  }
+    .navbar-dark .navbar-toggler-icon {
+        background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0, 0, 0, 0.7)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E") !important;
+    }
+
+    .navbar:not(.top-nav-collapse) {
+        background-color: #AACFED !important;
+    }
+
+    .top-nav-collapse {
+        background-color: #AACFED !important;
+    }
+
+    .footer-commitech, .footer-copyright {
+        background-color: #AACFED !important;
+    }
+
+    .rgba-black-strong {
+        background-color: rgba(0, 0, 0, .5) !important;
+    }
 }
 
 #intro .h6 {
-  font-weight: 300;
-  line-height: 1.7;
+    font-weight: 300;
+    line-height: 1.7;
 }
 
 .hm-gradient .full-bg-img {
-  background: rgba(185, 176, 255, 0.7);
-  background: linear-gradient(45deg, rgba(185, 176, 255, 0.7), rgba(29, 210, 177, 0.7) 100%);
+    background: rgba(185, 176, 255, 0.7);
+    background: linear-gradient(45deg, rgba(185, 176, 255, 0.7), rgba(29, 210, 177, 0.7) 100%);
 }
 
 @media (max-width: 450px) {
-  .navbar-dark .navbar-toggler-icon {
-    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0, 0, 0, 0.7)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E")!important;
-  }
-  .margins {
-    margin-right: 1rem;
-    margin-left: 1rem;
-  }
-  .top-nav-collapse {
-    background-color: #AACFED !important;
-  }
-  
-  .footer-commitech, .footer-copyright {
-    background-color: #AACFED !important;
-  }
-  
-  .rgba-black-strong {
-    background-color: rgba(0,0,0,.5)!important;
-  }
+    .navbar-dark .navbar-toggler-icon {
+        background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0, 0, 0, 0.7)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E") !important;
+    }
+
+    .margins {
+        margin-right: 1rem;
+        margin-left: 1rem;
+    }
+
+    .top-nav-collapse {
+        background-color: #AACFED !important;
+    }
+
+    .footer-commitech, .footer-copyright {
+        background-color: #AACFED !important;
+    }
+
+    .rgba-black-strong {
+        background-color: rgba(0, 0, 0, .5) !important;
+    }
 }
 
 #pricing .lead {
-  opacity: 0.7;
-}
-
-#pricing .card-image {
-  background: url("../img/architecture.jpg") no-repeat center center;
+    opacity: 0.7;
 }
 
 #pricing ul li {
-  font-size: 1.1em;
+    font-size: 1.1em;
+}
+
+/* The snackbar - position it at the bottom and in the middle of the screen */
+#snackbar {
+    visibility: hidden; /* Hidden by default. Visible on click */
+    min-width: 250px; /* Set a default minimum width */
+    margin-left: -125px; /* Divide value of min-width by 2 */
+    background-color: #333; /* Black background color */
+    color: #fff; /* White text color */
+    text-align: center; /* Centered text */
+    border-radius: 2px; /* Rounded borders */
+    padding: 16px; /* Padding */
+    position: fixed; /* Sit on top of the screen */
+    z-index: 1; /* Add a z-index if needed */
+    left: 50%; /* Center the snackbar */
+    bottom: 30px; /* 30px from the bottom */
+}
+
+/* Show the snackbar when clicking on a button (class added with JavaScript) */
+#snackbar.show {
+    visibility: visible; /* Show the snackbar */
+
+    /* Add animation: Take 0.5 seconds to fade in and out the snackbar.
+    However, delay the fade out process for 2.5 seconds */
+    -webkit-animation: fadein 0.5s, fadeout 0.5s 2.5s;
+    animation: fadein 0.5s, fadeout 0.5s 2.5s;
+}
+
+/* Animations to fade the snackbar in and out */
+@-webkit-keyframes fadein {
+    from {
+        bottom: 0;
+        opacity: 0;
+    }
+    to {
+        bottom: 30px;
+        opacity: 1;
+    }
+}
+
+@keyframes fadein {
+    from {
+        bottom: 0;
+        opacity: 0;
+    }
+    to {
+        bottom: 30px;
+        opacity: 1;
+    }
+}
+
+@-webkit-keyframes fadeout {
+    from {
+        bottom: 30px;
+        opacity: 1;
+    }
+    to {
+        bottom: 0;
+        opacity: 0;
+    }
+}
+
+@keyframes fadeout {
+    from {
+        bottom: 30px;
+        opacity: 1;
+    }
+    to {
+        bottom: 0;
+        opacity: 0;
+    }
 }
